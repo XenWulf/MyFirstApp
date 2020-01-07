@@ -2,11 +2,16 @@
 //
 
 #include <iostream>
+#include <string>
 
 int main()
 {
-    int value = 6 + 2;
-    std::cout << "Hello this is My First App!\n";
+    std::string name;
+    std::cout << "Brayden\n";
+    std::cin >> name;
+
+    std::cout << "Hello World" << name << "|!\n";
+        return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
