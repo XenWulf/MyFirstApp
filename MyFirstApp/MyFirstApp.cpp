@@ -7,10 +7,10 @@
 int main()
 {
     std::string name;
-    std::cout << "Brayden\n";
+    std::cout << "Enter your name.\n";
     std::cin >> name;
 
-    std::cout << "Hello World" << name << "|!\n";
+    std::cout << "Hello " << name << "!\n";
         return 0;
 }
 
